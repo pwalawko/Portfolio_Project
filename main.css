@@ -1,0 +1,80 @@
+body {
+  font-family: 'Julius Sans One', sans-serif;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+  margin: auto;
+}
+
+picture {
+  display: block;
+}
+
+section {
+  border-bottom: 0.2em solid #7d97ad;
+  margin-bottom: 1em;
+}
+
+#banner {
+  margin-bottom: 1em;
+}
+
+.main-header {
+  color: #2d3c49;
+  margin-top: 1em;
+}
+
+.main-title {
+  text-align: right;
+}
+
+.project-cont h4 {
+  text-align: center;
+}
+
+.project-pic:hover {
+  cursor: pointer;
+}
+
+.pr-description p {
+  font-family: sans-serif;
+}
+
+@media screen and (max-width: 450px) {
+  .project-cont {
+  	line-height: 1.2em;
+  }
+  .project-cont h4 {
+    font-size: 1.1em;
+  }  
+}
+
+@media screen and (max-width: 575px) {
+  #logo {
+    display: none;
+  }
+  .half-size {
+    display: inline-block;
+    width: 50%;
+  }
+  .project-cont {
+    display: flex;
+    margin-bottom: 1em;
+  }
+  .project-cont h4 {
+    text-align: left;
+  }
+  .pr-description {
+    margin-left: 1em;
+  }
+}
+
+@media screen and (min-width: 850px) {
+  body {
+    width: 850px;
+    margin: auto;
+  }
+}

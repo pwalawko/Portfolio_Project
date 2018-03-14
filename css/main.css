@@ -22,13 +22,18 @@ section {
   margin-bottom: 1em;
 }
 
+#header-text {
+  background-image: url("https://image.flaticon.com/icons/svg/71/71579.svg");
+  background-position: left no-repeat;
+  background-repeat: no-repeat;
+  background-size: contain;
+  text-align: right;
+  width: 100%;
+}
+
 .main-header {
   color: #2d3c49;
   margin-top: 1em;
-}
-
-.main-title {
-  text-align: right;
 }
 
 .project-cont h4 {
@@ -53,8 +58,8 @@ section {
 }
 
 @media screen and (max-width: 575px) {
-  #logo {
-    display: none;
+  #header-text {
+    background-image: none;
   }
   .half-size {
     display: inline-block;
